@@ -1,0 +1,36 @@
+[project]
+site_name = "NEW-nShield Security World v13.9.3 - new"
+site_description = "Security Manual"
+site_author = "Content Curator"
+copyright = "2026"
+
+extra_css = ["stylesheets/extra.css"]
+
+nav = [
+  { "nShield Security World v13.9.3 Security Manual" = [
+    "index.md",
+    { "Supply and Transportation"      = "supply-and-transportation.md" },
+    { "Environment"                    = "environment.md" },
+    { "Commissioning"                  = "commissioning.md" },
+    { "Access Control"                 = "access-control.md" },
+    { "Operation"                      = "operation.md" },
+    { "Key Management"                 = "key-management.md" },
+    { "Physical Security"              = "physical-security.md" },
+    { "Audit"                          = "audit.md" },
+    { "Support and Maintenance"        = "support-and-maintenance.md" },
+    { "Security Incident and Response" = "security-incident-and-response.md" },
+    { "Decommission and Disposal"      = "decommission-and-disposal.md" },
+    { "Abbreviations"                  = "abbreviations.md" }
+  ]}
+]
+
+[project.theme]
+language = "en"
+font     = { text = "Roboto", code = "Roboto Mono" }
+palette  = [{ primary = "deep-purple", accent = "deep-purple" }]
+features = [
+  "navigation.indexes",
+  "navigation.expand"
+]
+logo   = "assets/logo.png"
+favicon = "assets/favicon.png"

@@ -1,0 +1,27 @@
+:root {
+  --md-primary-fg-color:        #5C2D87;
+  --md-primary-fg-color--light: #7B4DAE;
+  --md-primary-fg-color--dark:  #3E1A6B;
+  --md-accent-fg-color:         #7B3FA0;
+}
+
+/* Ensure header text and icons are white */
+.md-header {
+  background-color: #5C2D87;
+  color: #ffffff;
+}
+
+.md-header__title {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Search bar inside the header */
+.md-search__input {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
